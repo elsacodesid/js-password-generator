@@ -1,0 +1,64 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    background-color: blueviolet;
+
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 440px;
+    height: 440px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background: rgba(7, 7, 7, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+#refresh-btn {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(15, 139, 57);
+    color: white;
+    border-radius: 5px;
+    border : none;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+
+#refresh-btn:hover {
+    background-color: rgb(9, 255, 0);
+
+}
+
+#btn-box {
+    padding: 20px;
+}
+
+#generated-pass-content {
+    color: white;   
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 80%;
+        height: auto;
+        top: 30%;
+        transform: translate(-55%, -50%);
+    }
+
+    #generated-pass-content {
+        padding: 10px;
+    }
+
+}
